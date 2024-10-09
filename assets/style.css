@@ -6,6 +6,7 @@ body {
 * {
 	font-family: "Inter";
 	font-style: normal;
+	font-display: swap;
 }
 
 .top-header {
@@ -96,7 +97,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 
 .title {
