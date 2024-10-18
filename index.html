@@ -2,7 +2,6 @@
 <html lang="fr">
 
 <head>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -38,24 +37,24 @@
 			"postalCode": "33200",
 			"addressRegion": "Gironde",
 			"addressCountry": "FR"
-		  },
-		  "telephone": "05 56 67 78 89",
-		  "priceRange": "50€",
-		  "openingHoursSpecification": [
+		},
+		"telephone": "05 56 67 78 89",
+		"priceRange": "50€",
+		"openingHoursSpecification": [
 			{
-			  "@type": "OpeningHoursSpecification",
-			  "dayOfWeek": [
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
 				"Monday",
 				"Tuesday",
 				"Wednesday",
 				"Thursday",
 				"Friday"
-			  ],
-			  "opens": "10:00",
-			  "closes": "19:00"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
 			}
-		  ],
-		  "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
+		],
+		"sameAs": ["https://www.instagram.com/ninacarducci.photo"]
 		}
 	</script>
 	<!--Balises meta facebook-->
@@ -251,6 +250,17 @@
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer" />
 				</form>
+				<div class="infos-sup">
+					<button class="dropdown-btn" data-target="#location">Localisation</button>
+					<div class="dropdown-content" id="location">
+						<p>Bordeaux</p>
+					</div>
+
+					<button class="dropdown-btn" data-target="#phone">Me contacter</button>
+					<div class="dropdown-content" id="phone">
+						<p>05 56 67 78 89</p>
+					</div>
+				</div>
 			</div>
 			<div class="picture right">
 				<img src="./assets/images/ImagesWEPB/camera.webp" alt="photo d'un appareil photo" loading="lazy"

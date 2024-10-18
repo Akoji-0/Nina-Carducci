@@ -262,6 +262,51 @@ input[type="submit"] {
 	padding: 0.5em 1em;
 }
 
+/* Style pour les boutons */
+.infos-sup .dropdown-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+	width: 70%;
+}
+
+.infos-sup .dropdown-btn:hover {
+    background-color: #555;
+}
+
+/* Contenu caché initialement */
+.infos-sup .dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    background-color: #f1f1f1;
+    padding: 12px 75px 0 75px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Contenu visible */
+.infos-sup .dropdown-content.show {
+    max-height: 200px; /* Ajuste selon le contenu */
+    opacity: 1;
+}
+
+.infos-sup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	align-content: flex-start;
+    flex-wrap: wrap;
+	margin-top: 2.5rem;
+	gap: 6px;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
